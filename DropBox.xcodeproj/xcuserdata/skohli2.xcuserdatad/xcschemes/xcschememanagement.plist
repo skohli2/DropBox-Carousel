@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DropBox.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4F2410BB1CF7C0410022C61C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F2410CF1CF7C0420022C61C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4F2410DA1CF7C0420022C61C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
