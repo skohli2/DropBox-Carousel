@@ -14,6 +14,10 @@
 		4F2410CA1CF7C0410022C61C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2410C81CF7C0410022C61C /* LaunchScreen.storyboard */; };
 		4F2410D51CF7C0420022C61C /* DropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410D41CF7C0420022C61C /* DropBoxTests.swift */; };
 		4F2410E01CF7C0420022C61C /* DropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410DF1CF7C0420022C61C /* DropBoxUITests.swift */; };
+		4F2410EE1CF7C1B50022C61C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410ED1CF7C1B50022C61C /* Common.swift */; };
+		4F2410F01CF7C22E0022C61C /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410EF1CF7C22E0022C61C /* IntroViewController.swift */; };
+		4F2410F21CF7C9FD0022C61C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410F11CF7C9FD0022C61C /* LoginViewController.swift */; };
+		4F2410F51CFD5D0E0022C61C /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2410F41CFD5D0E0022C61C /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4F2410DB1CF7C0420022C61C /* DropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2410DF1CF7C0420022C61C /* DropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxUITests.swift; sourceTree = "<group>"; };
 		4F2410E11CF7C0420022C61C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F2410ED1CF7C1B50022C61C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4F2410EF1CF7C22E0022C61C /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		4F2410F11CF7C9FD0022C61C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4F2410F41CFD5D0E0022C61C /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +105,12 @@
 		4F2410BE1CF7C0410022C61C /* DropBox */ = {
 			isa = PBXGroup;
 			children = (
+				4F2410F31CF7CAA70022C61C /* View Controllers */,
 				4F2410BF1CF7C0410022C61C /* AppDelegate.swift */,
 				4F2410C11CF7C0410022C61C /* ViewController.swift */,
 				4F2410C31CF7C0410022C61C /* Main.storyboard */,
 				4F2410C61CF7C0410022C61C /* Assets.xcassets */,
+				4F2410ED1CF7C1B50022C61C /* Common.swift */,
 				4F2410C81CF7C0410022C61C /* LaunchScreen.storyboard */,
 				4F2410CB1CF7C0410022C61C /* Info.plist */,
 			);
@@ -123,6 +133,16 @@
 				4F2410E11CF7C0420022C61C /* Info.plist */,
 			);
 			path = DropBoxUITests;
+			sourceTree = "<group>";
+		};
+		4F2410F31CF7CAA70022C61C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F2410EF1CF7C22E0022C61C /* IntroViewController.swift */,
+				4F2410F11CF7C9FD0022C61C /* LoginViewController.swift */,
+				4F2410F41CFD5D0E0022C61C /* TutorialViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2410C21CF7C0410022C61C /* ViewController.swift in Sources */,
+				4F2410EE1CF7C1B50022C61C /* Common.swift in Sources */,
 				4F2410C01CF7C0410022C61C /* AppDelegate.swift in Sources */,
+				4F2410F21CF7C9FD0022C61C /* LoginViewController.swift in Sources */,
+				4F2410F51CFD5D0E0022C61C /* TutorialViewController.swift in Sources */,
+				4F2410F01CF7C22E0022C61C /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
